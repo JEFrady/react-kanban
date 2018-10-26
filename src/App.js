@@ -60,6 +60,7 @@ class App extends Component {
     console.log('additemtoinventory', this.state)
   }
 
+  ///delete
   delete = (card) => {
     console.log('delete', card.title)
     let arr = this.state.cards
